@@ -14,7 +14,7 @@
     padding: 0px;
 }
 body {
-    min-width: 100vw;
+    width: 100vw;
     font-family: var(--fonte-cursiva);
     background-color: white;
 }
@@ -22,7 +22,7 @@ header {
     z-index: 1;
     position: fixed;
     background-color: black;
-    color: white;
+    color: yellow;
     text-align: center;
     padding: 40px;
     width: 100vw;
