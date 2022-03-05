@@ -14,7 +14,7 @@
     padding: 0px;
 }
 body {
-    width: 100vw;
+    min-width: 300px;
     font-family: var(--fonte-cursiva);
     background-color: white;
 }
