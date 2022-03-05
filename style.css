@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*Google Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap'); 
+/*Fonte Local*/
+@font-face {} 
+/*Variáveis*/
+:root {
+    --fonte-cursiva: Arial, Helvetica, sans-serif;
+    --fonte-titulo:'Passion One', 'cursive';
+    --fonte-padrao: 'Sriracha', 'cursive';
+} 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-width: 484px;
+    font-family: var(--fonte-cursiva);
+    background-color: white;
+}
+header {
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 100vw;
+}
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 3.5em;
+    font-weight: normal;
+}
+header > h1 > span.drop {
+    font-size: 150%;
+}
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header > p > a:hover {
+    text-decoration: underline;
+    color: rgb(27, 136, 238);
+}
+main {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.356);
+    max-width: 1100px;
+    margin: auto;
+
+    position: relative;
+
+    transform: translate(0%, 6.3%);
+}
+section {
+}
+section.fundo-branco {
+    background-color: white;
+}
+section.fundo-joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+}
+section.fundo-carta {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+}
+article {
+    display: inline-block;
+    margin: 4% 0px 4% 4%;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    line-height: 2em;
+}
+article.fundo-com-imagem {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+    margin-top: 50px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+    color: rgb(27, 136, 238);
+}
